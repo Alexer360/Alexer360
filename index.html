@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome</title>
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            <div class="logo">
+                <h1>HireMe</h1>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Porfolio</a></li>
+                    <li><a href="#">About me</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<div class="info">
+        <div class="right-side">
+            <h1>Hi, am Alex Nyanten</h1>
+            <p>Occupation: Web developer (front-end)</p>
+            <p>Languages: Html, Css, Javascript, React</p>
+            <p>Education: Harvard University</p>
+
+
+            <button>Hire me</button>
+        </div>
+        <div class="left">
+            <img width="600" height="400"
+ src="https://images.pexels.com/photos/819530/pexels-photo-819530.jpeg?auto=compress&cs=tinysrgb&w=600"
+             alt="">
+        </div>    
+    </div>
+    <style>
+
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        .main{
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            height: 10vh;
+            background: rgb(53, 48, 48);
+
+        }
+
+        .nav{
+            position: sticky;
+            display: flex;
+            align-items: center;
+            width: 80%;
+            margin: 0px 0px;
+            align-items: center;
+            z-index: 1;
+        }
+
+        .logo{
+            margin: 1rem;
+        }
+
+        .logo h1{
+            font-family: calibri;
+            color: white;
+        }
+
+        .nav-links{
+            flex: 1;
+            text-align: right;
+        }
+
+        .nav ul li{
+            display: inline-flex;
+            margin: 1.5rem;
+            font-family: segoe ui;
+            font-style: italic;
+            font-size: 1.1rem;
+        }
+
+        .nav ul li a{
+            color: white;
+        }
+
+        .nav ul li a:hover{
+            color: aquamarine;
+        }
+
+
+
+        .right-side{
+            float: right;
+            margin: 200px 100px;
+            color: rgb(94, 87, 87);
+            
+        }
+
+        .right-side h1{
+            font-size: 2.5rem;
+            font-family: calibri;
+        }
+
+        .right-side p{
+            font-family: calibri;
+            font-size: 1.1rem;
+            font-style: oblique;
+        }
+        .right-side button{
+            margin: 1rem;
+            padding: 1rem 3rem;
+            border: none;
+            color: white;
+            background: green;
+            border-radius: 2rem;
+            font-family: calibri;
+            font-style: italic;
+        }
+
+        .right-side button:hover{
+            background: blue;
+            transition: 0.4s;
+            padding: 1rem 4rem;
+        }
+
+        .left{
+            float: left;
+            margin: 100px 100px;
+        }
+
+        .left img{
+            border-radius: 2rem;
+        }
+
+        .info{
+            background-color: linear-gradient(to right, 
+            #9c27b0, #8ecdff);
+        }
+
+        
+    
+    </style>
+</body>
+</html>
